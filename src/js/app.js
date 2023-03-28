@@ -23,6 +23,8 @@ function displayWeather(data = []) {
     const { name } = data.location;
     const { temp_c, humidity, wind_kph } = data.current;
     const { text } = data.current.condition
+    
+    // Set values
 
     document.querySelector(".weatherName").innerText = `Weather in ${name}`;
     document.querySelector(".weatherCelsy").innerText = `${temp_c} °C`;
