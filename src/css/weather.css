@@ -6,6 +6,8 @@
   font-family: sans-serif;
 }
 
+/* Default Codes */
+
 section {
   width: 100%;
   height: 100vh;
@@ -18,6 +20,8 @@ section {
   width: 80%;
   margin: 0 auto;
 }
+
+/* Weather codes */
 
 .weather {
   width: 50%;
